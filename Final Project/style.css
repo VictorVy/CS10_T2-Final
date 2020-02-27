@@ -1,12 +1,14 @@
 body
 {
 	margin: 0px;
+	background-color: black;
 }
 
 .navBar
 {
 	padding: 0px;
 	margin-top: 0px;
+	margin-bottom: 100px;
 	list-style-type: none;
 	overflow: hidden;
 	background-image: url("navBarBG.jpg");
@@ -20,9 +22,9 @@ body
 }
 .navLi a
 {
-	padding-top: 15px;
-	margin-left: 0px;
-	height: 100%;
+	padding-top: 10px;
+	margin: 5px;
+	height: 55px;
 	color: white;
 	display: block;
 	font-family: "ZCOOL QingKe HuangYou";
@@ -33,11 +35,44 @@ body
 	text-shadow: 2px 2px 4px white;
 	letter-spacing: 2px;
 }
-
-.navLi a:hover
+.navLi a:hover:not(.selected)
 {
 	color: black;
 	background-color: rgba(255, 255, 255, 0.3);
-	text-shadow: none;
-	box-shadow: 0px 0px 6px 8px rgba(255, 255, 255, 0.3);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.3);
+}
+.selected
+{
+	background-color: rgba(255, 255, 255, 0.4);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.4);
+}
+.selected:hover
+{
+	color: black;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.4);
+}
+
+#ovImg1
+{
+	width: 400px;
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 10px;
+}
+#ovP1
+{
+	color: white;
+	position: absolute;
+	margin-top: -80px;
+	font-size: 24px;
+	
+}
+
+#ovImg2
+{
+	width: 100%;
 }
