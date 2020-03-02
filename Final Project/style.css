@@ -1,7 +1,11 @@
 body
 {
 	margin: 0px;
+	color: #f0f5f7;
 	background-color: black;
+	font-size: 20px;
+	font-family: "Oxanium";
+	line-height: 28px;
 }
 
 .navBar
@@ -22,12 +26,12 @@ body
 }
 .navLi a
 {
-	padding-top: 10px;
+	padding-top: 18px;
 	margin: 5px;
-	height: 55px;
+	height: 46.5px;
 	color: white;
 	display: block;
-	font-family: "ZCOOL QingKe HuangYou";
+	font-family: "Kelly Slab";
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
@@ -63,16 +67,36 @@ body
 	margin-top: -90px;
 	margin-left: 10px;
 }
+
 #ovP1
 {
-	color: white;
-	position: absolute;
-	margin-top: -80px;
-	font-size: 24px;
-	
+	margin-top: -16px;
+	margin-left: 425px;
 }
 
 #ovImg2
 {
 	width: 100%;
+	/* box-shadow: inset 0px -32px 16px -16px black; */
+	box-shadow: 0px 10px 12px 2px #0a1020;
+}
+
+#ovP2
+{
+	margin-top: 100px;
+	margin-left: 125px;
+	padding: 30px;
+	width: 240px;
+	height: 250px;
+	border: 2px solid rgba(211, 223, 229, 0.8);
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: inset 0px 0px 8px 2px #d3dfe5;
+}
+
+#ovImg3
+{
+	float: right;
+	margin-top: -315px;
+	margin-right: 175px;
 }
