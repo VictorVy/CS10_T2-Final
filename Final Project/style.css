@@ -6,6 +6,7 @@ body
 	font-size: 20px;
 	font-family: "Oxanium";
 	line-height: 28px;
+	height: 10000px;
 }
 
 .navBar
@@ -83,20 +84,64 @@ body
 
 #ovP2
 {
-	margin-top: 100px;
-	margin-left: 125px;
+	margin-top: 175px;
+	margin-left: 250px;
 	padding: 30px;
 	width: 240px;
 	height: 250px;
-	border: 2px solid rgba(211, 223, 229, 0.8);
+	border: 2px solid #1d283c;
 	border-radius: 8px;
 	text-align: center;
-	box-shadow: inset 0px 0px 8px 2px #d3dfe5;
+	box-shadow: inset 0px 0px 12px 8px #1d283c;
 }
 
 #ovImg3
 {
 	float: right;
-	margin-top: -315px;
-	margin-right: 175px;
+	margin-top: -350px;
+	margin-right: 150px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 8px #1d283c;
+}
+
+#ovImg4
+{
+	width: 1200px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 160px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 12px 16px #1d283c;
+	background-image: url("gameplay.png");
+}
+#ovP3
+{
+	position: absolute;
+	width: 325px;
+	margin-top: 375px;
+	margin-left: 50px;
+	padding: 15px 10px 15px 10px;
+	color: black;
+	background-color: rgba(226, 210, 167, 0.5);
+	border-radius: 16px;
+	box-shadow: 0px 0px 8px 8px rgba(226, 210, 167, 0.5);
+	text-align: center;
+	font-weight: 1000;
+}
+
+#ovP4-1
+{
+	text-align: center;
+	width: 425px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 16px;
+	background-color: #1d283c;
+	box-shadow: 0px 0px 8px 16px #1d283c;
+}
+#ovImg5
+{
+	
 }
