@@ -512,7 +512,7 @@ body
 	box-shadow: 0px 0px 12px 16px #1d283c;
 }
 
-#gradient
+#gradient1
 {
 	width: 100%;
 	height: 50px;
@@ -530,6 +530,73 @@ body
 #hotsTrailer
 {
 	margin-top: 100px;
-	margin-left: calc(50% - 540px);
+	margin-left: calc(50% - 640px);
 	box-shadow: 0px 0px 12px 16px #1d283c;
+}
+
+#gaImg3
+{
+	width: 800px;
+	margin-top: 100px;
+	margin-left: calc(50% - 600px);
+}
+#gaImg4
+{
+	width: 800px;
+	margin-top: 100px;
+	margin-left: calc(50% - 200px);
+}
+
+#gaImg5
+{
+	width: 1200px;
+	margin-top: 150px;
+	margin-left: calc(50% - 600px);
+}
+
+#gaImg6
+{
+	margin-top: 150px;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 20px;
+}
+#gaImg6-1
+{
+	position: absolute;
+	width: 500px;
+	margin-left: 20px;
+}
+#gaImg6-2
+{
+	width: 500px;
+	margin-left: calc(50% - 250px);
+}
+#gaImg6-3
+{
+	width: 500px;
+	float: right;
+	margin-right: 20px;
+}
+
+#gaImg7
+{
+	width: 1280px;
+	margin-top: 150px;
+	margin-left: calc(50% - 640px);
+}
+
+#starcraftsTrailer
+{
+	margin-top: 200px;
+	margin-left: calc(50% - 640px);
+	box-shadow: 0px 0px 12px 16px #1d283c;
+}
+
+#gradient2
+{
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	background-image: linear-gradient(black, #1d283c);
 }
